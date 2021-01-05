@@ -2,9 +2,6 @@
     "name": "pillar-science/laravel-multi-morph",
     "description": "Allows to use multiple MorphBy relationships with same model",
     "keywords": ["laravel", "relationships", "relations", "morph", "polymorphic"],
-    "require-dev": {
-        "orchestra/testbench": "^5.0"
-    },
     "autoload": {
         "psr-4": {
             "PillarScience\\LaravelMultiMorph\\": "src"
@@ -18,5 +15,9 @@
             "homepage": "https://pillar.science",
             "role": "Developer"
         }
-    ]
+    ],
+    "require": {
+        "illuminate/database": "^7.28",
+        "php": "^7.2.5"
+    }
 }
