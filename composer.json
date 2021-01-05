@@ -1,6 +1,7 @@
 {
     "name": "pillar-science/laravel-multi-morph",
     "description": "Allows to use multiple MorphBy relationships with same model",
+    "keywords": ["laravel", "relationships", "relations", "morph", "polymorphic"],
     "require-dev": {
         "orchestra/testbench": "^5.0"
     },
@@ -13,7 +14,9 @@
     "authors": [
         {
             "name": "Mathieu Tanguay",
-            "email": "mathieu@pillar.science"
+            "email": "mathieu@pillar.science",
+            "homepage": "https://pillar.science",
+            "role": "Developer"
         }
     ]
 }
