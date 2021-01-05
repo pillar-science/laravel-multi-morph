@@ -1,0 +1,19 @@
+{
+    "name": "pillar-science/laravel-multi-morph",
+    "description": "Allows to use multiple MorphBy relationships with same model",
+    "require-dev": {
+        "orchestra/testbench": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PillarScience\\LaravelMultiMorph\\": "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mathieu Tanguay",
+            "email": "mathieu@pillar.science"
+        }
+    ]
+}
